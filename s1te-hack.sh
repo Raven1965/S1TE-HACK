@@ -18,8 +18,9 @@ if [[ $kontrol == 0 ]];then
 	echo
 	pkg install nmap -y
 fi
-if [[ -a sqlmap ]];then
+if [[ -a sqlmap/sqlmap.py ]];then
 	echo
+
 else
 	echo
 	echo

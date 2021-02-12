@@ -57,7 +57,7 @@ python sqlmap.py -u "$link" -D $databasead --tables
 echo
 echo
 echo
-read -e -p $' \e[32m TABLO ADINI GİRİNİZ \e[31m>>\e[0m\n\n ' tabload
+read -e -p $'\e[31m───────[ \e[97mTABLO ADINI GİRİNİZ\e[31m ]───────► \e[0m ' tabload
 echo
 echo
 echo
