@@ -39,7 +39,9 @@ echo
 printf "
 \e[31m[\e[97m1\e[31m]\e[97m ────────── \e[32mSQL AÇIĞI BUL\e[97m
 
-\e[31m[\e[97m2\e[31m]\e[97m ────────── \e[32mSQL AÇIĞI İSTİSMARI\e[97m
+\e[31m[\e[97m2\e[31m]\e[97m ────────── \e[32mSQL AÇIKLI SİTE BUL\e[97m
+
+\e[31m[\e[97m3\e[31m]\e[97m ────────── \e[32mSQL AÇIĞI İSTİSMARI\e[97m
 
 \e[31m[\e[97mX\e[31m]\e[97m ────────── \e[31mÇIKIŞ\e[97m
 "
@@ -65,6 +67,9 @@ if [[ $secim == 1 ]];then
 	echo
 	exit
 elif [[ $secim == 2 ]];then
+	bash sqlmapacık.sh
+	exit	
+elif [[ $secim == 3 ]];then
 	bash sqlmap.sh
 	exit
 elif [[ $secim == x || $secim == X ]];then
