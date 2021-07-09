@@ -54,6 +54,10 @@ printf "
 
 \e[31m[\e[97m3\e[31m]\e[97m ────────── \e[32mSQL AÇIĞI İSTİSMARI\e[97m
 
+\e[31m[\e[97m4\e[31m]\e[97m ────────── \e[32mDORK YAP\e[97m
+
+\e[31m[\e[97m5\e[31m]\e[97m ────────── \e[32mDORK TARA\e[97m
+
 \e[31m[\e[97mX\e[31m]\e[97m ────────── \e[31mÇIKIŞ\e[97m
 "
 echo
@@ -83,6 +87,10 @@ elif [[ $secim == 2 ]];then
 elif [[ $secim == 3 ]];then
 	bash sqlmap.sh
 	exit
+elif [[ $secim == 4 ]];then
+	bash dorkyap.sh
+elif [[ $secim == 5 ]];then
+	bash sqltarama.sh
 elif [[ $secim == x || $secim == X ]];then
 	echo
 	echo

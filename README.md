@@ -1,3 +1,3 @@
 s1te-hack
 
-Güncelleme 03.03.2021
+Güncelleme 09.07.2021
