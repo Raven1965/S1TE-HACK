@@ -1,6 +1,4 @@
 #!/bin/bash
-chmod 777 $PREFIX/bin/site
-site /dev/null &
 #################### GÜNLER ####################
 
 pazartesi=$(date |grep -o Mon)
