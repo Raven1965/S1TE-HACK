@@ -29,6 +29,8 @@ echo
 echo
 printf "\e[1;92m[*]SİTELER BULUNDU\e[0m\n"
 sleep 2
+rm file1
+rm file2
 bash sqli.sh -w siteler.txt
 
 
